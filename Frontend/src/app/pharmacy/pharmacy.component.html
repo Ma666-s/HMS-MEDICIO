@@ -1,0 +1,17 @@
+<div class=" addres ">
+  <div data-text="Awesome" class="button">
+    <span class="actual-text">&nbsp;الصيدلية&nbsp;</span>
+    <span class="hover-text" aria-hidden="true">&nbsp;الصيدليه&nbsp;</span>
+  </div>
+</div>
+<section style="background-color: #eee">
+  <div class="text-center container py-5">
+    <div class="row">
+      <div class="col-lg-4 col-md-12 mb-4 "
+        *ngFor="let treatment of treatments | paginate: { itemsPerPage: 9, currentPage: page }">
+        <app-treatment [treatment]="treatment" (item)="addToCard($event)"></app-treatment>
+      </div>
+      <pagination-controls (pageChange)="page = $event"></pagination-controls>
+    </div>
+  </div>
+</section>

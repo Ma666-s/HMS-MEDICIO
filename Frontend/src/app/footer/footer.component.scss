@@ -1,0 +1,14 @@
+#footer-translate{
+    direction: rtl;
+}
+#prag{
+    float: right;
+    text-align: right;
+}
+@media (max-width: 991px)
+{
+    .last
+    {
+        display: none;
+    }
+}

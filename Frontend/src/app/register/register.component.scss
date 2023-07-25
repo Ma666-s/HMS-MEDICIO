@@ -1,0 +1,37 @@
+.register-margin{
+    margin: 2%;
+}
+#register-translate{
+    direction: rtl;
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.imgedit {
+    width: 50rem;
+    height: 35rem;
+    object-fit: cover;
+    border-width: 0.5rem;
+    border-style: solid;
+    border-radius: 3rem;
+  }
+  body
+  {
+      background-image: url(https://images.unsplash.com/photo-1500004621732-74cd4ad4d53e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80);
+      background-origin: border-box;
+      background-position: center;
+      background-clip: content-box;
+      background-size: 110rem;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+  }
+  form{
+      background-color: white;
+      padding: 2.5em;
+      border-radius: 3rem;
+  }
+  
+
+  

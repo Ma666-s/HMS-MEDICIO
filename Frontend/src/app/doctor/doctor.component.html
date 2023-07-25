@@ -1,0 +1,22 @@
+
+<section class="mb-5">
+  <div class=" container-xxl contain ">
+  <div class="row">
+    <div class="col-xl-2">
+      <img class="doctorimg" src="{{data.image}}" alt="doctor_image">
+    </div>
+    <div class="col-xl-8">
+      <div class="card-block">
+        <h3 class="card-title display-6"><b>{{data.name}}</b></h3>
+        <p class="card-text" style="font-size: 1rem">
+          {{data.about}}
+        </p>
+        <h5 class="card-loc"><i class="fa-solid fa-location-dot"></i>&nbsp; <b>{{data.location}}</b></h5>
+        <br>
+        <a [routerLink]="['/DoctorDetails',data._id]" class="btn">مزيد من التفاصيل</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+</section>

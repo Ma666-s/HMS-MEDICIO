@@ -1,0 +1,57 @@
+<!-- ======= Header ======= -->
+
+<header id="header" class="header fixed-top navbar-dark bg-light " [class.fixed-top]="isNavbarFixed">
+  <div class="row justify-content-center ">
+    <div class="col-xl-9 d-flex align-items-center justify-content-lg-between">
+      <h1 class="logo me-auto "><a routerLink="/home" ><img
+            src="/assets/img/icons8-heart-health-60.png"></a>&nbsp;MEDICIO</h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+
+        <ul>
+          <li><a class="nav-link scrollto" routerLink="/home">الرئيسية &nbsp;<i class="fa-solid fa-house"></i></a>
+          </li>
+          <li><a class="nav-link scrollto" routerLink="/Pharmacy">الصيدلية &nbsp;<i
+                class="fa-sharp fa-solid fa-staff-snake"></i></a></li>
+          <li><a class="nav-link scrollto" routerLink="/doctors">الأطباء &nbsp;<i
+                class="fa-solid fa-user-doctor"></i></a>
+          </li>
+          <li><a class="nav-link scrollto " routerLink="/cart">المتجر &nbsp;<i class="pi pi-shopping-cart"></i>
+            </a>
+          </li>
+          <li><a class="nav-link scrollto " routerLink="/add-doctor">انضم الينا &nbsp;<i
+                class="pi pi-shopping-cart"></i> </a></li>
+
+          <li><a class="nav-link scrollto " routerLink="/register">تسجيل &nbsp;<i
+                class="fa-solid fa-user-plus"></i></a>
+          </li>
+          <li><a class="nav-link scrollto " routerLink="/login" style="margin-left:210px ;">دخول &nbsp;<i
+                class="fa-solid fa-user-group"></i></a>
+          </li>
+        </ul>
+        
+
+            
+              <div class="dropdown">
+            <button class="bbtt" type="button" data-toggle="dropdown"><span class="material-symbols-outlined">
+              menu
+              </span></button>
+            <ul style="direction: ltr;">
+              <li><a routerLink="/home">الرئيسية </a></li>
+              <li><a routerLink="/Pharmacy">الصيدلية</a></li>
+              <li><a routerLink="/doctors">الأطباء</a></li>
+              <li><a routerLink="/cart">المتجر</a></li>
+              <li><a routerLink="/add-doctor">انضم الينا</a></li>
+              <li><a routerLink="/register">تسجيل</a></li>
+              <li><a routerLink="/login">دخول</a></li>
+            </ul>
+          </div>
+                                         
+          
+        
+      </nav>
+    </div>
+  </div>
+</header>

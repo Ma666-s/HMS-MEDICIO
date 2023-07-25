@@ -1,0 +1,24 @@
+
+<div class=" addres mb-4">
+  <div data-text="Awesome" class="bbtt">
+    <span class="actual-text">&nbsp;الأطباء&nbsp;</span>
+    <span class="hover-text" aria-hidden="true">&nbsp;الأطباء&nbsp;</span>
+  </div>
+</div>
+
+  <div class="row">
+    <div class="col-lg-8 col-xl-12">
+      <section *ngFor="let doctor of doctors | paginate: { itemsPerPage: 9, currentPage: page }">
+    <app-doctor [data] = 'doctor'></app-doctor>
+  </section>
+  <div class="cont">
+    <pagination-controls  (pageChange)="page = $event"></pagination-controls>
+  </div>
+  
+</div>
+    </div>
+  
+
+
+
+
